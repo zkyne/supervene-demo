@@ -47,13 +47,11 @@ public class Movie implements Serializable {
     private String cover;
     @Id
     private String id;
-
     @JSONField(name="cover_y")
     @Column
     private int coverY;
     @JSONField(name = "is_new")
     @Column
     private boolean isNew;
-
 
 }
